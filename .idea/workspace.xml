@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="learn:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10d935d3-054d-4d92-876a-c0e7b89f48a4" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/meicai/apache-maven-3.3.3-bin/apache-maven-3.3.3" />
+        <option name="nonRecursive" value="true" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="F:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1W3mpjlWWqOSbtqRozC00e519PR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="thread&#9;FILE&#9;file://F:/git/learn/src/main/java/com/fox/thread/MyThreadDemo.java&#10;Lock&#9;FILE&#9;jar://F:/java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;atomicinte&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;run&#9;FILE&#9;file://F:/git/learn/src/main/java/com/fox/executor/ExecutorRunnable.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fox" />
+      <recent name="com.fox.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\learn\src\main\resources\META-INF" />
+      <recent name="F:\git\learn\src\main\resources\META-INF\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortDemo">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration name="BeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.BeanTest" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadLocalStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.thread.MyThreadLocalStringDemo" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.al.sort.SortDemo" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.al.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.thread.ThreadDemoTest" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.al.tree.TreeDemo" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.al.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BeanTest" />
+      <item itemvalue="Application.MyThreadLocalStringDemo" />
+      <item itemvalue="Application.ThreadDemoTest" />
+      <item itemvalue="Application.TreeDemo" />
+      <item itemvalue="Application.SortDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortDemo" />
+        <item itemvalue="Application.TreeDemo" />
+        <item itemvalue="Application.ThreadDemoTest" />
+        <item itemvalue="Application.BeanTest" />
+        <item itemvalue="Application.MyThreadLocalStringDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10d935d3-054d-4d92-876a-c0e7b89f48a4" name="Default" comment="" />
+      <created>1536635509520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536635509520</updated>
+      <workItem from="1536635511588" duration="1451000" />
+      <workItem from="1538283770580" duration="1607000" />
+      <workItem from="1539310384216" duration="5722000" />
+      <workItem from="1546827251044" duration="7257000" />
+      <workItem from="1546928608184" duration="611000" />
+      <workItem from="1554297867119" duration="1005000" />
+      <workItem from="1557116359604" duration="357000" />
+      <workItem from="1557116775312" duration="236000" />
+      <workItem from="1557117701506" duration="2488000" />
+      <workItem from="1557459047972" duration="2206000" />
+      <workItem from="1557481898472" duration="1762000" />
+      <workItem from="1557747778318" duration="6847000" />
+      <workItem from="1558061485122" duration="27000" />
+      <workItem from="1558061541311" duration="1850000" />
+      <workItem from="1558433140611" duration="1446000" />
+      <workItem from="1558519510235" duration="815000" />
+      <workItem from="1558578743511" duration="1394000" />
+      <workItem from="1558583280782" duration="5509000" />
+      <workItem from="1558612197853" duration="976000" />
+      <workItem from="1562722781574" duration="2910000" />
+      <workItem from="1562759989388" duration="2274000" />
+      <workItem from="1562815358303" duration="599000" />
+      <workItem from="1563269158109" duration="5094000" />
+      <workItem from="1564048659494" duration="4108000" />
+      <workItem from="1564386834917" duration="9280000" />
+      <workItem from="1564476389532" duration="2724000" />
+      <workItem from="1565177203329" duration="1052000" />
+      <workItem from="1565234015722" duration="2147000" />
+      <workItem from="1565424831202" duration="129000" />
+      <workItem from="1566795886456" duration="8230000" />
+      <workItem from="1566913485212" duration="764000" />
+      <workItem from="1567156355613" duration="4724000" />
+      <workItem from="1567478244276" duration="18016000" />
+      <workItem from="1567566785585" duration="1937000" />
+      <workItem from="1568604895289" duration="8435000" />
+      <workItem from="1569228217123" duration="2151000" />
+      <workItem from="1569238294552" duration="3230000" />
+      <workItem from="1569324961161" duration="3337000" />
+      <workItem from="1569579722127" duration="617000" />
+      <workItem from="1569745325440" duration="1071000" />
+      <workItem from="1571822374926" duration="11740000" />
+      <workItem from="1571987871207" duration="4158000" />
+      <workItem from="1572168864521" duration="3312000" />
+      <workItem from="1572321032612" duration="2635000" />
+      <workItem from="1576748536870" duration="5908000" />
+      <workItem from="1577154330765" duration="2267000" />
+      <workItem from="1577156903768" duration="2282000" />
+      <workItem from="1577173362822" duration="219000" />
+      <workItem from="1577263456969" duration="17698000" />
+      <workItem from="1577758134455" duration="598000" />
+      <workItem from="1577945557099" duration="21000" />
+      <workItem from="1578386839817" duration="2872000" />
+      <workItem from="1578389913309" duration="4582000" />
+      <workItem from="1582166565974" duration="5001000" />
+      <workItem from="1583486582882" duration="1009000" />
+      <workItem from="1583978985734" duration="4608000" />
+      <workItem from="1585882716001" duration="6874000" />
+      <workItem from="1586244842884" duration="619000" />
+      <workItem from="1587610390810" duration="2175000" />
+      <workItem from="1587975922354" duration="3702000" />
+      <workItem from="1589962916536" duration="2457000" />
+      <workItem from="1593516421896" duration="2031000" />
+      <workItem from="1593572495418" duration="9282000" />
+      <workItem from="1593658416502" duration="5716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="330" y="-850" key="#com.intellij.ide.util.MemberChooser" timestamp="1593516540858">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="330" y="-850" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593516540858" />
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom" timestamp="1593690269775">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
+    <state width="1877" height="256" key="GridCell.Tab.0.center" timestamp="1593690269775">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
+    <state width="1877" height="256" key="GridCell.Tab.0.left" timestamp="1593690269775">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
+    <state width="1877" height="256" key="GridCell.Tab.0.right" timestamp="1593690269775">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1593690199035">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
+    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1593690199035">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
+    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1593690199034">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199034" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1593690199035">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
+    <state x="188" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1593690492523">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="188" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690492523" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/Two.java</url>
+          <line>27</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/Two.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/Third.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/link/NodeTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/thread/MyThreadLocalStringDemo.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/sort/SortDemo.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>learn:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-beanutils:commons-beanutils:1.9.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package" />
+  </component>
+</project>
