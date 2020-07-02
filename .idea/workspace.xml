@@ -9,7 +9,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d935d3-054d-4d92-876a-c0e7b89f48a4" name="Default" comment="" />
+    <list default="true" id="10d935d3-054d-4d92-876a-c0e7b89f48a4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -46,6 +51,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W3mpjlWWqOSbtqRozC00e519PR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -425,7 +431,7 @@
       <workItem from="1589962916536" duration="2457000" />
       <workItem from="1593516421896" duration="2031000" />
       <workItem from="1593572495418" duration="9282000" />
-      <workItem from="1593658416502" duration="5716000" />
+      <workItem from="1593658416502" duration="6017000" />
     </task>
     <servers />
   </component>
