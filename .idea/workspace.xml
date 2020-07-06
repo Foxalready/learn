@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d935d3-054d-4d92-876a-c0e7b89f48a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fox/al/TanXin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fox/al/find/FindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fox/al/find/FindDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fox/al/sort/SortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fox/al/sort/SortDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W3mpjlWWqOSbtqRozC00e519PR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,7 +82,7 @@
       <recent name="F:\git\learn\src\main\resources\META-INF\services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortDemo">
+  <component name="RunManager" selected="Application.TanXin">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -147,27 +152,13 @@
       <kind value="DIRECTORY" />
       <method />
     </configuration>
-    <configuration name="BeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fox.BeanTest" />
+    <configuration name="FindDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.al.find.FindDemo" />
       <module name="learn" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyThreadLocalStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fox.thread.MyThreadLocalStringDemo" />
-      <module name="learn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fox.thread.*" />
+          <option name="PATTERN" value="com.fox.al.find.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +173,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fox.al.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TanXin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fox.al.TanXin" />
+      <module name="learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fox.al.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,19 +335,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BeanTest" />
-      <item itemvalue="Application.MyThreadLocalStringDemo" />
       <item itemvalue="Application.ThreadDemoTest" />
       <item itemvalue="Application.TreeDemo" />
       <item itemvalue="Application.SortDemo" />
+      <item itemvalue="Application.FindDemo" />
+      <item itemvalue="Application.TanXin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TanXin" />
+        <item itemvalue="Application.FindDemo" />
         <item itemvalue="Application.SortDemo" />
         <item itemvalue="Application.TreeDemo" />
         <item itemvalue="Application.ThreadDemoTest" />
-        <item itemvalue="Application.BeanTest" />
-        <item itemvalue="Application.MyThreadLocalStringDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -432,6 +437,10 @@
       <workItem from="1593516421896" duration="2031000" />
       <workItem from="1593572495418" duration="9282000" />
       <workItem from="1593658416502" duration="6017000" />
+      <workItem from="1593743965726" duration="3690000" />
+      <workItem from="1593767553024" duration="919000" />
+      <workItem from="1594002879910" duration="599000" />
+      <workItem from="1594029215476" duration="3817000" />
     </task>
     <servers />
   </component>
@@ -443,38 +452,50 @@
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
     <state x="330" y="-850" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593516540858" />
-    <state width="1877" height="256" key="GridCell.Tab.0.bottom" timestamp="1593690269775">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1594037186248">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
-    <state width="1877" height="256" key="GridCell.Tab.0.center" timestamp="1593690269775">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186248" />
+    <state width="1323" height="92" key="GridCell.Tab.0.bottom/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747284910" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1594037186248">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
-    <state width="1877" height="256" key="GridCell.Tab.0.left" timestamp="1593690269775">
+    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186248" />
+    <state width="1323" height="92" key="GridCell.Tab.0.center/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747284910" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1594037186248">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
-    <state width="1877" height="256" key="GridCell.Tab.0.right" timestamp="1593690269775">
+    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186248" />
+    <state width="1323" height="92" key="GridCell.Tab.0.left/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747284910" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1594037186248">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690269775" />
-    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1593690199035">
+    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186248" />
+    <state width="1323" height="92" key="GridCell.Tab.0.right/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747284910" />
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1594037186120">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
-    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1593690199035">
+    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186120" />
+    <state width="1323" height="92" key="GridCell.Tab.1.bottom/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747285327" />
+    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1594037186120">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
-    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1593690199034">
+    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186120" />
+    <state width="1323" height="92" key="GridCell.Tab.1.center/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747285326" />
+    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1594037186119">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199034" />
-    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1593690199035">
+    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186119" />
+    <state width="1323" height="92" key="GridCell.Tab.1.left/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747285326" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1594037186120">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1593690199035" />
+    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594037186120" />
+    <state width="1323" height="92" key="GridCell.Tab.1.right/0.0.1366.728/-435.-1080.1920.1040@0.0.1366.728" timestamp="1593747285327" />
+    <state x="63" y="-824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594029496999">
+      <screen x="-435" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="63" y="-824" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/-435.-1080.1920.1040@-435.-1080.1920.1040" timestamp="1594029496999" />
     <state x="188" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1593690492523">
       <screen x="-435" y="-1080" width="1920" height="1040" />
     </state>
@@ -511,6 +532,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/sort/SortDemo.java</url>
           <line>37</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fox/al/TanXin.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
