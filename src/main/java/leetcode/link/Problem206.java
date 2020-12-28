@@ -4,6 +4,8 @@ package leetcode.link;
 import leetcode.common.CommonUtil;
 import leetcode.common.MyLinkedNode;
 
+import java.math.BigDecimal;
+
 /**
  * 反转一个单链表。
  * <p>
@@ -20,15 +22,63 @@ public class Problem206 {
     private MyLinkedNode tail;
 
     public static void main(String[] args) {
-        Problem206 problem206 = new Problem206();
 
-        MyLinkedNode node = MyLinkedNode.create(1, 2, 3, 4, 5);
-        CommonUtil.printNode(node);
-        MyLinkedNode node1 = problem206.reverseList(node);
-//        CommonUtil.printNode();
+        int i = 4;
+        System.out.println(i);
+        changeInt(i);
+        System.out.println(i);
+
+//        Person person = new Person();
+//        person.setName("111111");
+//
+//        System.out.println(person.name);
+//        change(person);
+//        System.out.println(person.name);
+
+//        int i;
+//        for (i = 0; i < 10; i++) {
+//            ;
+//        }
+//        System.out.println(i);
+
+//        int a = 5;
+//        double b = 9;
+//        double i = a / b;
+////        System.out.println(i);
+//        System.out.println("%d\t%s");
+//        BigDecimal a = new BigDecimal("-22.2385");
+//        a = a.setScale(2,BigDecimal.ROUND_HALF_UP);
+//        System.out.println(a);
+
+//        Problem206 problem206 = new Problem206();
+//
+//        MyLinkedNode node = MyLinkedNode.create(1, 2, 3, 4, 5);
+//        CommonUtil.printNode(node);
 //        MyLinkedNode node1 = problem206.reverseList(node);
-        CommonUtil.printNode(node1);
+////        CommonUtil.printNode();
+////        MyLinkedNode node1 = problem206.reverseList(node);
+//        CommonUtil.printNode(node1);
 
+    }
+
+    private static void changeInt(int i) {
+        i = 5;
+    }
+
+    private static void change(Person person) {
+        person.setName("222222222");
+    }
+
+    static class Person {
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 
     private MyLinkedNode reverseList(MyLinkedNode node) {
